@@ -15,13 +15,11 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                
-            Text("this is vom")
-                .font(.largeTitle)
-                .fontWeight(.black)
             
             Text("Version 3.0")
                 .font(.largeTitle)
                 .fontWeight(.black)
+            Rectangle()
         }
         .padding()
         .foregroundColor(.green)
