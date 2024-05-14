@@ -14,9 +14,12 @@ struct ContentView: View {
             Image(systemName: "1.circle")
                 .resizable()
                 .scaledToFit()
-                
+               
+            Text("test")
+                .font(.largeTitle)
+                .fontWeight(.black)
             
-            Text("Version 2.0")
+            Text("Version 3.0")
                 .font(.largeTitle)
                 .fontWeight(.black)
         }
