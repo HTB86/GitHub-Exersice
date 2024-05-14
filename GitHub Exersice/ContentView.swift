@@ -15,7 +15,7 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                
-            Text("test")
+            Text("this is vom")
                 .font(.largeTitle)
                 .fontWeight(.black)
             
